@@ -1,0 +1,44 @@
+SetMaxWindow to 50
+
+Set used agtr to 450... (all agtr: 20000)
+
+
+Set max_agtr_size_per_thread to 50...
+
+thread_to_use 9
+max_agtr_size_per_thread: 50
+used agtr: 450 (all:20000) 
+using: mlx5_1 nic: 0
+[Thread 0] Finish created QP - kAppRingMbufSize=512, kAppStridesPerWQE=512, kAppRingSize=1048576, kAppRQDepth=4
+init: 0
+[Thread 1] Finish created QP - kAppRingMbufSize=512, kAppStridesPerWQE=512, kAppRingSize=1048576, kAppRQDepth=4
+init: 1
+[Thread 2] Finish created QP - kAppRingMbufSize=512, kAppStridesPerWQE=512, kAppRingSize=1048576, kAppRQDepth=4
+init: 2
+[Thread 3] Finish created QP - kAppRingMbufSize=512, kAppStridesPerWQE=512, kAppRingSize=1048576, kAppRQDepth=4
+init: 3
+[Thread 4] Finish created QP - kAppRingMbufSize=512, kAppStridesPerWQE=512, kAppRingSize=1048576, kAppRQDepth=4
+init: 4
+[Thread 5] Finish created QP - kAppRingMbufSize=512, kAppStridesPerWQE=512, kAppRingSize=1048576, kAppRQDepth=4
+init: 5
+[Thread 6] Finish created QP - kAppRingMbufSize=512, kAppStridesPerWQE=512, kAppRingSize=1048576, kAppRQDepth=4
+init: 6
+[Thread 7] Finish created QP - kAppRingMbufSize=512, kAppStridesPerWQE=512, kAppRingSize=1048576, kAppRQDepth=4
+init: 7
+[Thread 8] Finish created QP - kAppRingMbufSize=512, kAppStridesPerWQE=512, kAppRingSize=1048576, kAppRQDepth=4
+init: 8
+
+Model initializing...
+
+Model initialized completed. Start sending...
+
+Thr 48.673178 
+Thr 50.194216 
+Thr 50.118166 
+Thr 50.042113 
+Thr 49.966063 
+Thr 50.270271 
+Finish all 4500 Tensors,
+  Time = 3.463762 s,
+  Total Size = 21901.776714 MB,
+  Throughput: 49.399356 Gbps
